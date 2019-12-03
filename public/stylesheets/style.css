@@ -1,0 +1,82 @@
+/* Navbar */
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link{
+  font-family: 'Solway', serif;
+  text-transform: uppercase;
+}
+.info-color {
+  background-color: #0093ca !important;
+}
+/* Home section */
+#home{
+  text-align: center;
+  height: 530px;
+  padding-top: 250px;
+}
+#home #name{
+  color: #00fff5;
+}
+.inner{
+  margin: auto;
+  padding: 5px;
+}
+.inner h1,h4{
+  color: #4b74bf;
+  font-family: 'Montserrat', sans-serif;
+}
+#landing_btn{
+  background: none;
+  border: 2px solid #07dcff;
+}
+#landing_btn:hover{
+  background: #07dcff;
+  color: black;
+}
+/* About section */
+#about{
+  padding:40px;
+}
+#about_img{
+  margin-top:30px;
+  margin-bottom:40px;
+}
+#about h3{
+  font-family: 'Montserrat', sans-serif;
+}
+#about #aboutme_txt{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+}
+/* Portfolio section */
+#portfolio{
+  background: #dedede;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+#portfolio #portfolio_head{
+  font-family: Montserrat;
+  padding:10px;
+}
+/* Contact section */
+#contact{
+
+}
+#contact_form{
+    background: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#contact_head{
+  font-family: Montserrat;
+  padding-top:20px;
+  text-align: center;
+}
+#contact_p{
+  font-family: montserrat;
+  color:rgb(80, 79, 79);
+  font-weight: 400;
+  padding: 10px;
+  text-align: center;
+}
