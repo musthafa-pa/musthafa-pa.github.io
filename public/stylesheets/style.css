@@ -23,6 +23,20 @@
   color: #4b74bf;
   font-family: 'Montserrat', sans-serif;
 }
+.inner a{
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  .inner h1{
+    color: #4b74bf;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+  }
+  .inner h4{
+    font-size: 13px;
+  }
+}
+#port
 #landing_btn{
   background: none;
   border: 2px solid #07dcff;
@@ -54,6 +68,22 @@
   padding-bottom: 30px;
   padding-left: 100px;
   padding-right: 100px;
+}
+@media only screen and (max-width: 600px) {
+  #portfolio {
+    background: #dedede;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .col-md-4{
+    padding-bottom: 20px;
+  }
+  .col{
+    width: 100%;
+  }
 }
 #portfolio #portfolio_head{
   font-family: 'Solway', serif;
