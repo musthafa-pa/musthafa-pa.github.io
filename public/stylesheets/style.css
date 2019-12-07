@@ -40,7 +40,7 @@
   margin-bottom:40px;
 }
 #about h3{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Solway', serif;
 }
 #about #aboutme_txt{
   font-family: 'Work Sans', sans-serif;
@@ -56,8 +56,19 @@
   padding-right: 100px;
 }
 #portfolio #portfolio_head{
-  font-family: Montserrat;
+  font-family: 'Solway', serif;
   padding:10px;
+}
+
+/* Tech Stack section */
+#tech_stack{
+  margin-top: 30px;
+}
+#tech_stack_head{
+  font-family: 'Solway', serif;
+  padding-top:20px;
+  text-align: center;
+  padding-bottom: 20px;
 }
 /* Contact section */
 #contact{
@@ -69,7 +80,7 @@
     margin-bottom: 40px;
 }
 #contact_head{
-  font-family: Montserrat;
+  font-family: 'Solway', serif;
   padding-top:20px;
   text-align: center;
 }
