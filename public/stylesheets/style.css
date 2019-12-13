@@ -62,7 +62,7 @@
 }
 /* Portfolio section */
 #portfolio{
-  background: #dedede;
+  background: #f4f8ff;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -100,6 +100,15 @@
   text-align: center;
   padding-bottom: 20px;
 }
+#tech_stack img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.13);
+}
+@media only screen and (max-width: 600px) {
+  .row{
+    margin-left: 0px;
+  }
+}
+
 /* Contact section */
 #contact{
 
