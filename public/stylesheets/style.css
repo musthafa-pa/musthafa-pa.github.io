@@ -11,6 +11,8 @@
   text-align: center;
   height: 530px;
   padding-top: 250px;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
 }
 #home #name{
   color: #00fff5;
