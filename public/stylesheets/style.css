@@ -11,8 +11,7 @@
   text-align: center;
   height: 530px;
   padding-top: 250px;
-  background: rgb(0,74,119);
-  background: linear-gradient(90deg, rgba(0,74,119,1) 0%, rgba(20,141,176,1) 35%, rgba(61,113,124,1) 100%);
+  background-size:cover;
 }
 #home #name{
   color: #00fff5;
