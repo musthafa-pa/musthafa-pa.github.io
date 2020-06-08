@@ -1,133 +1,164 @@
 /* Navbar */
-.navbar.navbar-dark .navbar-nav .nav-item .nav-link{
-  font-family: 'Solway', serif;
-  text-transform: uppercase;
+
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    font-family: 'Solway', serif;
+    text-transform: uppercase;
 }
+
 .info-color {
-  background-color: #0093ca !important;
+    background-color: #0093ca !important;
 }
+
+
 /* Home section */
-#home{
-  text-align: center;
-  height: 530px;
-  padding-top: 250px;
-  background-size:cover;
+
+#home {
+    text-align: center;
+    height: 530px;
+    padding-top: 250px;
+    background-size: cover;
 }
-#home #name{
-  color: #00fff5;
+
+#home #name {
+    color: #00fff5;
 }
-.inner{
-  margin: auto;
-  padding: 5px;
+
+.inner {
+    margin: auto;
+    padding: 5px;
 }
-.inner h1,h4{
-  color: #4b74bf;
-  font-family: 'Montserrat', sans-serif;
+
+.inner h1,
+h4 {
+    color: #ffffff;
+    font-family: 'Soleway', sans-serif;
 }
-.inner a{
-  color: white;
+
+.inner a {
+    color: white;
 }
+
 @media only screen and (max-width: 600px) {
-  .inner h1{
-    color: #4b74bf;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-  }
-  .inner h4{
-    font-size: 13px;
-  }
+    .inner h1 {
+        color: #4b74bf;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+    }
+    .inner h4 {
+        font-size: 13px;
+    }
 }
-#port
-#landing_btn{
-  background: none;
-  border: 2px solid #07dcff;
+
+#port #landing_btn {
+    background: none;
+    border: 2px solid #07dcff;
 }
-#landing_btn:hover{
-  background: #07dcff;
-  color: black;
+
+#landing_btn:hover {
+    background: #07dcff;
+    color: black;
 }
+
+
 /* About section */
-#about{
-  padding:40px;
+
+#about {
+    padding: 40px;
 }
-#about_img{
-  margin-top:30px;
-  margin-bottom:40px;
+
+#about_img {
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
-#about h3{
-  font-family: 'Solway', serif;
+
+#about h3 {
+    font-family: 'Solway', serif;
 }
-#about #aboutme_txt{
-  font-family: 'Work Sans', sans-serif;
-  font-size: 15px;
+
+#about #aboutme_txt {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
 }
+
+
 /* Portfolio section */
-#portfolio{
-  background: #f4f8ff;
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 100px;
-  padding-right: 100px;
-}
-@media only screen and (max-width: 600px) {
-  #portfolio {
-    background: #dedede;
+
+#portfolio {
+    background: #f4f8ff;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  .col-md-4{
-    padding-bottom: 20px;
-  }
-  .col{
-    width: 100%;
-  }
+    padding-left: 100px;
+    padding-right: 100px;
 }
-#portfolio #portfolio_head{
-  font-family: 'Solway', serif;
-  padding:10px;
+
+@media only screen and (max-width: 600px) {
+    #portfolio {
+        background: #dedede;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .col-md-4 {
+        padding-bottom: 20px;
+    }
+    .col {
+        width: 100%;
+    }
 }
+
+#portfolio #portfolio_head {
+    font-family: 'Solway', serif;
+    padding: 10px;
+}
+
 
 /* Tech Stack section */
-#tech_stack{
-  margin-top: 30px;
+
+#tech_stack {
+    margin-top: 30px;
 }
-#tech_stack_head{
-  font-family: 'Solway', serif;
-  padding-top:20px;
-  text-align: center;
-  padding-bottom: 20px;
+
+#tech_stack_head {
+    font-family: 'Solway', serif;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
 }
-#tech_stack img{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.13);
+
+#tech_stack img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.13);
 }
+
 @media only screen and (max-width: 600px) {
-  .row{
-    margin-left: 0px;
-  }
+    .row {
+        margin-left: 0px;
+    }
 }
+
 
 /* Contact section */
-#contact{
 
-}
-#contact_form{
+#contact {}
+
+#contact_form {
     background: #ffffff;
     margin-top: 20px;
     margin-bottom: 40px;
 }
-#contact_head{
-  font-family: 'Solway', serif;
-  padding-top:20px;
-  text-align: center;
+
+#contact_head {
+    font-family: 'Solway', serif;
+    padding-top: 20px;
+    text-align: center;
 }
-#contact_p{
-  font-family: montserrat;
-  color:rgb(80, 79, 79);
-  font-weight: 400;
-  padding: 10px;
-  text-align: center;
+
+#contact_p {
+    font-family: montserrat;
+    color: rgb(80, 79, 79);
+    font-weight: 400;
+    padding: 10px;
+    text-align: center;
 }
