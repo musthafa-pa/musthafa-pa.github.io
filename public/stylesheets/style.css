@@ -165,3 +165,7 @@ h4 {
     padding: 10px;
     text-align: center;
 }
+
+.row{
+        margin-bottom: 10px !important;
+}
